@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: php-deployment
 spec:
-  replicas: 1
+  replicas: 4
   template:
     metadata:
       labels:
