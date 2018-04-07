@@ -1,0 +1,17 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: test-deployment
+spec:
+  replicas: 4
+  template:
+    metadata:
+      labels:
+        app: test
+    spec:
+      containers:
+        - image: tutum/hello-world
+          imagePullPolicy: Always
+          name: test-container
+          ports:
+            - containerPort: 80
