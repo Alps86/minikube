@@ -19,3 +19,8 @@ kubectl get ing
 NAME           HOSTS     ADDRESS          PORTS     AGE
 test-ingress   *         192.168.99.104   80        19s
 ```
+
+```bash
+# for the php example
+minikube mount ./code:/code &
+```
