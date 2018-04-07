@@ -9,7 +9,7 @@ helm install --name nginx-ingress stable/nginx-ingress
 ```
 
 ```bash
-helm install apps/test/
+helm install --name test apps/test/
 ```
 
 ```bash
