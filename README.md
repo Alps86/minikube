@@ -9,9 +9,7 @@ helm install --name nginx-ingress stable/nginx-ingress
 ```
 
 ```bash
-kubectl apply -f apps/test/deployment.yml
-kubectl apply -f apps/test/service.yml
-kubectl apply -f apps/test/ingress.yml
+helm install apps/test/
 ```
 
 ```bash
